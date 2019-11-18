@@ -1,8 +1,6 @@
 # Toogle
 
-Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/toogle`. To experiment with that code, run `bin/console` for an interactive prompt.
-
-TODO: Delete this and the text above, and describe your gem
+Take your traditional google searching "DOWN" a level by using 'Terminal Google' aka 'Toogle'. With this gem, you can get only the most relevant results for your 'google' search "who cares about a page 100,000". When using this gem it will be color coded using red/green/blue. I recommend you use a dark terminal background if you have sensitive eyes.
 
 ## Installation
 
@@ -22,7 +20,7 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+    $ Open up the terminal and just run the program by typing 'toogle' (without the quotes of course)
 
 ## Development
 
