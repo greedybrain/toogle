@@ -1,14 +1,15 @@
 class Toogle::CLI   
 
     def call
-        instructions
+        show_title_intro
         get_and_show_data
     end
 
-    def instructions
-        puts "#{('_'.yellow * 14) + ('_'.red * 14)}"
-        puts "#{Toogle::FontArt.get_font_art}"
-        puts "#{('_'.green * 14) + ('_'.blue * 14)}"
+    def show_title_intro
+        font_art = Toogle::FontArt
+        font_art.line_1
+        font_art.get_font_art
+        font_art.line_2
     end
 
     def scraper_gets_user_info
