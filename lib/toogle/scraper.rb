@@ -5,7 +5,6 @@ class Toogle::Scraper
     end
 
     def query_data(users_search, chosen_pages)
-        # typed_in = Toogle::CLI.new
         this = get_page
         total_pages = chosen_pages
         this.goto("http://google.com")

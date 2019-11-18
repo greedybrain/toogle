@@ -9,7 +9,7 @@ Gem::Specification.new do |spec|
   spec.email         = ["greedybrain18@gmail.com"]
   spec.date          = "2019-11-17"
   spec.summary       = "Take your traditional google searching \"DOWN\" a level by using Terminal Google aka Toogle"
-  spec.description   = "With this gem, you can get only the most relevant results for your search \"who cares about a page 100,000\"."
+  spec.description   = "With this gem, you can get only the most relevant results for your 'google' search \"who cares about a page 100,000\"."
   spec.homepage      = "https://github.com/greedybrain/toogle"
   spec.license       = "MIT"
   spec.files         = ["lib/toogle.rb", "lib/toogle/version.rb", "lib/toogle/art.rb", "lib/toogle/cli.rb", "lib/toogle/query.rb", "lib/toogle/scraper.rb", "config/env.rb"]

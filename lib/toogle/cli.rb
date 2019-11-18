@@ -2,7 +2,9 @@ class Toogle::CLI
 
     def call
         show_title_intro
+        creation
         get_and_show_data
+        perform_new_search?
     end
 
     def show_title_intro
@@ -38,14 +40,30 @@ class Toogle::CLI
         scraper.query_data(query, pages)
     end
 
-    def get_and_show_data
+    def creation
         Toogle::Query.create
+    end
+
+    def get_and_show_data
         Toogle::Query.all.each do |ele| 
             puts "\n#{ele.title.green}"
             puts "_".yellow * ele.title.length
             puts "\n#{ele.link.blue}"
             puts ele.description.red
             puts
+        end
+    end
+
+    def perform_new_search?
+        while true
+            puts "\nWould you like to enter a new search?(Y/n)"
+            input = gets.chomp.downcase
+            if input == 'y'
+                creation 
+                get_and_show_data
+            elsif input == 'n' || input != 'y'
+                goodbye
+            end
         end
     end
 
