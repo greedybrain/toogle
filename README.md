@@ -1,6 +1,6 @@
 # Toogle
 
-Take your traditional google searching "DOWN" a level by using 'Terminal Google' aka 'Toogle'. With this gem, you can get only the most relevant results for your 'google' search "who cares about a page 100,000". When using this gem it will be color coded using red/green/blue. I recommend you use a dark terminal background if you have sensitive eyes.
+Take your traditional google searching "DOWN" a level by using 'Terminal Google' aka 'Toogle'. With this gem, you can get only the most relevant results for your 'google' search "who cares about a page 100,000". When using this gem it will be color coded using red/green/blue and yellow. I recommend you use a dark terminal background if you have sensitive eyes.
 
 ## Installation
 
