@@ -22,8 +22,6 @@ Or install it yourself as:
 
     $ Open up the terminal and just run the program by typing 'toogle' (without the quotes of course)
     
-    <h1>hello</h1>
-
 ## Development
 
 After checking out the repo, run `bin/setup` to install dependencies. Then, run `rake spec` to run the tests. You can also run `bin/console` for an interactive prompt that will allow you to experiment.
