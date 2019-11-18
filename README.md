@@ -22,6 +22,9 @@ Or install it yourself as:
 
     $ Open up the terminal and just run the program by typing 'toogle' (without the quotes of course)
     
+    
+    <img width="655" alt="toogle-screenshot" src="https://user-images.githubusercontent.com/51010236/69020633-2d15f180-0983-11ea-95ae-3d4dbf80d7cd.png">
+    
 ## Development
 
 After checking out the repo, run `bin/setup` to install dependencies. Then, run `rake spec` to run the tests. You can also run `bin/console` for an interactive prompt that will allow you to experiment.
