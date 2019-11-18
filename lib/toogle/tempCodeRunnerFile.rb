@@ -1,0 +1,1 @@
+total_pages = typed_in.how_many_pages?
