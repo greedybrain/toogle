@@ -21,6 +21,8 @@ Or install it yourself as:
 ## Usage
 
     $ Open up the terminal and just run the program by typing 'toogle' (without the quotes of course)
+    
+    <h1>hello</h1>
 
 ## Development
 
