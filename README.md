@@ -22,8 +22,9 @@ Or install it yourself as:
 
     $ Open up the terminal and just run the program by typing 'toogle' (without the quotes of course)
     
-    
-    
+## Sample Image
+
+<img src="./toogle-screenshot.png" width=700px>
     
 ## Development
 
